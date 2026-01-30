@@ -48,3 +48,8 @@ variable "node_count" {
   description = "Number of nodes for the PostgreSQL instance."
   type        = number
 }
+
+variable "admin_username" {
+    description = "Admin username for the PostgreSQL instance."
+    type        = string
+}

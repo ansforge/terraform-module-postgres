@@ -22,3 +22,9 @@ resource "ovh_cloud_project_database" "postgres" {
     description = ""
   }
 }
+
+resource "ovh_cloud_project_database_postgresql_user" "admin_user" {
+  service_name = ovh_cloud_project_database.postgres.service_name
+  cluster_id   = ovh_cloud_project_database.postgres.id
+  name         = var.admin_username
+}
