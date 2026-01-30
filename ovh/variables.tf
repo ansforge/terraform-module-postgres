@@ -4,8 +4,8 @@ variable "region" {
   default     = "eu-west-rbx"
 }
 
-variable "instance_name" {
-  description = "Instance name."
+variable "service_name" {
+  description = "Service name."
   type        = string
 }
 
