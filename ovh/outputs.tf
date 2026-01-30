@@ -1,3 +1,7 @@
+output "database_id" {
+  value = ovh_cloud_project_database.postgres.id
+}
+
 output "database_uri" {
   value = ovh_cloud_project_database.postgres.endpoints.0.uri
 }

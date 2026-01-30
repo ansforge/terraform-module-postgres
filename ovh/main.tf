@@ -1,7 +1,7 @@
 resource "ovh_cloud_project_database" "postgres" {
-  service_name = var.service_name
-  engine       = "postgresql"
-  flavor       = var.flavor
+  service_name        = var.service_name
+  engine              = "postgresql"
+  flavor              = var.flavor
   deletion_protection = var.deletion_protection
 
   dynamic "nodes" {

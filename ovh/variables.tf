@@ -50,8 +50,8 @@ variable "node_count" {
 }
 
 variable "admin_username" {
-    description = "Admin username for the PostgreSQL instance."
-    type        = string
+  description = "Admin username for the PostgreSQL instance."
+  type        = string
 }
 
 variable "deletion_protection" {
