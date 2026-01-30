@@ -53,3 +53,9 @@ variable "admin_username" {
     description = "Admin username for the PostgreSQL instance."
     type        = string
 }
+
+variable "deletion_protection" {
+  description = "Whether to enable deletion protection for the PostgreSQL instance."
+  type        = bool
+  default     = true
+}
