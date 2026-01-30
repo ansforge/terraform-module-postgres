@@ -1,5 +1,5 @@
 variable "region" {
-  description = "OVH region for the KMS resource ('eu-west-rbx')."
+  description = "OVH region for the PostgreSQL instance (e.g., 'eu-west-rbx')."
   type        = string
   default     = "eu-west-rbx"
 }
