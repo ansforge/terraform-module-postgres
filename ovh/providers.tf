@@ -8,3 +8,7 @@ terraform {
     }
   }
 }
+
+provider "ovh" {
+  endpoint = var.ovh.endpoint
+}
