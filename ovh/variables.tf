@@ -1,3 +1,10 @@
+variable "ovh" {
+  type = object({
+    endpoint   = string,
+    project_id = string
+  })
+}
+
 variable "region" {
   description = "OVH region for the PostgreSQL instance (e.g., 'eu-west-rbx')."
   type        = string
