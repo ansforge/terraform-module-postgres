@@ -1,6 +1,5 @@
 variable "ovh" {
   type = object({
-    endpoint   = string,
     project_id = string
   })
 }
